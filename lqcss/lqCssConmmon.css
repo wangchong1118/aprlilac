@@ -1,0 +1,88 @@
+@charset: "utf-8";
+/*Conmmon Css*/
+
+*{padding: 0;margin: 0;}
+html {min-height:100%;border:none 0;}
+body {color:#333;font: 12px Arial,Tahoma,"宋体";background:#fffaf0;}
+a {color:#333;text-decoration:none;}
+a:hover {color:#00B1C1;text-decoration:underline;}
+img {border:0 none; vertical-align:middle;}
+ul,ol,li {list-style-type:none;}
+table {border-collapse:separate;border-spacing:0;}
+button,input,select {vertical-align:middle;color: #333;border: none;outline:none;}
+textarea {resize:none; outline:none;}
+
+/*top*/
+.top{position:relative;width: 100%;height: 30px;border-bottom: 1px solid #ccc;z-index: 98;}
+.top .topBox{width: 1180px;margin: 0 auto;}
+.top .topBox .topLeft{float: left;height:20px;line-height: 22px;border-radius: 6px;background: #fff;margin-top: 6px;padding: 0 6px;border: 1px solid #00B1C1;}
+.top .topBox span,b{padding: 0 2px;}
+.top .topBox .topLeft b{color: #00B1C1;}
+.top .topBox .topLeft span#city{font-weight: bold;}
+.top .topBox .topRight{position: relative;float: right;}
+.top .topBox .topRight .welcome{display: block;float: left;padding-top: 10px;}
+.top .topBox .topRight .welcome a.myName{color: #00B1C1;font-weight: bold;padding: 0 4px;}
+.top .topBox .topRight span.fenLine{float: left;color: #c0c0c0;font-size: 20px;padding: 0 2px;line-height: 30px;}
+.top .topBox .topRight .contact{display: block;float: left;}
+.top .topBox .topRight .contact a{display: block;float: left;width: 18px;height: 15px;margin: 10px 2px 0 2px;}
+.top .topBox .topRight .contact a.weixinIco{height:20px;background: url(../lqimages/lqIco1.png) 0 0 no-repeat;}
+.top .topBox .topRight .contact a.qqIco{background: url(../lqimages/lqIco1.png) -20px 0 no-repeat;}
+.top .topBox .topRight .contact a.qqZoneIco{background: url(../lqimages/lqIco1.png) -38px 0 no-repeat;}
+.top .topBox .topRight .contact a.sinaIco{background: url(../lqimages/lqIco1.png) -58px 0 no-repeat;}
+.top .topBox .topRight .contact a.EmailIco{background: url(../lqimages/lqIco1.png) -82px 0 no-repeat;margin-left: 4px;}
+.top .topBox .topRight .wxErweima  {position: absolute;top: 27px;left: 260px;z-index: 99;display:none;width: 180px;height: 180px;padding: 2px;background: #FFFFFF;border: 1px solid #ccc;}
+.top .topBox .topRight .wxErweima img {display: block;width: 180px;height: 180px;}
+
+/*logo&search*/
+.logoSearch{position:relative;width: 1180px;height: 76px;margin: 0 auto;z-index: 97;}
+.logoSearch .logoBox{width: 197px;height: 60px;padding-top: 10px;float: left;}
+.logoSearch .logoBox a.logo{display: block;float: left;width: 197px;height: 60px;}
+.logoSearch .moodBox{float: left;width: 420px;height: 60px;margin-top: 12px;margin-left: 80px;}
+.logoSearch .moodBox .moodTitle{display: block;width: 80px;height: 24px;line-height: 24px;font-family: "微软雅黑";font-size: 14px;}
+.logoSearch .moodBox .moodCon{display: block;width: 400px;height: auto;font-size: 12px;line-height: 12px;text-indent: 60px;padding-top: 4px;}
+.searchBox{float: right;width: 330px;height: 26px;margin-top: 36px;}
+.searchBox .searchOver{float: left;width: 250px;height: 26px;color: #AED872;font-size: 12px;line-height: 26px;text-indent: 12px;background: url(../lqimages/lqIco1.png) -200px 0 no-repeat;}
+.searchBox .searchBtn{display: block;float:left;width: 30px;height: 26px;background: url(../lqimages/lqIco1.png) -450px 0 no-repeat;cursor: pointer;}
+.freqWeb{position: relative;}
+.freqWeb .freqWebtn{position: absolute;top: 0px;left: 290px;_left: 10px;display: block;width: 24px;height: 26px;background: url(../lqimages/lqIco1.png) -172px 0 no-repeat;cursor: pointer;}
+.freqWeb .freqWebHide{position: absolute;top: 30px;left: 0;_left: -280px;z-index: 98;display:none;width: 320px;height: 100px;padding-top: 10px;border: 1px solid #6ba822;border-radius:6px;background: #FFFFFF;}
+.freqWeb .freqWebArr{position: absolute;top: -5px;left: 296px;display: block;width: 14px;height: 5px;background: url(../lqimages/lqIco1.png) -467px -26px no-repeat;overflow: hidden;}
+.freqWeb a{display: block;float: left;width: 80px;height: 24px;line-height: 24px;text-align: center;}
+
+/*nav*/
+.nav{position:relative;width: 100%;height: 36px;background: #00B1C1;z-index: 96;}
+.nav .wrapNav{width: 1180px;height: 36px;margin: 0 auto;}
+.wrapNav .navBox .navli{position: relative;float: left;height: 36px;line-height: 36px;}
+.wrapNav .navBox .navli .navh3{float: left;padding: 0 14px;margin: 5px 5px 0 0;border-radius: 2px;}
+.wrapNav .navBox .navli .navSeclected{display:block;height:36px;background: white;}
+.wrapNav .navBox .navli .depTh1{display: block;float: left;font-size: 14px;height: 26px;line-height: 30px;_line-height: 26px;color: white;text-decoration: none;}
+.wrapNav .navBox .navli .navSeclected a{color: #00B1C1;}
+.wrapNav .navBox .navli .menuChildBox{position: absolute;top: 36px;left: -2px;_top:41px;_left:0;display: none;width: 387px;height: auto;padding: 5px;border: 2px solid #00B1C1;border-top: none;background: white;}
+.wrapNav .navBox .navli .menuChildBox1{width: 78px;}
+.wrapNav .menuChildBox .menuChild{position:relative;width: 386px;margin-bottom: 3px;*margin-bottom: -3px;_margin-bottom: 1px;}
+.wrapNav .menuChildBox .menuChild1{width: 78px;}
+.wrapNav .menuChild .depTh2{display: block;width: 78px;height: 30px;line-height: 30px;font-size: 12px;color: #00B1C1;text-decoration: none;text-align: center;background: #EFEFEF;}
+.wrapNav .depTh2_hover{display: block;width: 78px;height: 30px;line-height: 30px;margin-top: -2px;color: white;text-decoration: none;text-align: center;font-weight: bold;background: #00B1C1;}
+.wrapNav .menuChild .itemBox{position: absolute;top: 0;left: 78px;width: 305px;height: 28px;color: #c7c7c7;overflow: hidden;border-left: 3px solid #666;border-bottom: 1px solid white;background: #EFEFEF;}
+.wrapNav .itemBox_hover{position: absolute;top: 0;*top: -2px;_top: 0;left: 78px;width: 305px;height:auto;overflow: visible;border: 1px solid #00B1C1;border-left: 2px solid #00B1C1;background: white;}
+.wrapNav .menuChild ul li{display: block;float: left;height: 24px;line-height: 24px;padding: 4px 6px;overflow: hidden;}
+.wrapNav ul li a.depTh3{color: #484848;padding}
+.wrapNav ul li a.depTh3:hover{color: #00B1C1;}
+.wrapNav ul li a.depTh30{padding-left: 8px;}
+.wrapNav .hotTag{float: right;height: 36px;line-height: 40px;}
+.wrapNav .hotTag span,.wrapNav .hotTag a{color: white;}
+.wrapNav .hotTag a{padding-right: 8px;}
+
+/*bottom*/
+.bottom{float: left;width: 100%;height: 112px;color: white;background: #00B1C1;}
+.bottom .botBox{width: 1180px;height: 112px;margin: 0 auto;}
+.botBox a{color: white;}
+.botBox .frLink{float: left;width: 720px;height: 76px;margin-top: 24px;padding-right: 30px;border-right: 1px solid white;}
+.botBox .frLink .frLinkTxt{display: block;float: left;width: 100%;height: 24px;line-height: 24px;font-size: 14px;font-weight: bold;}
+.botBox .frLink .frLinkList{display: inline-block;float: left;*width: 60px;height: 24px;line-height: 24px;padding-right: 16px;}
+.botBox .about{float: left;width: 350px;height: 76px;padding-left: 30px;margin-top: 24px;}
+.botBox .about .aboutRow{float: left;width: 350px;height: 24px;line-height: 24px;}
+.botBox .about .aboutRow a,.botBox .about .aboutRow span{display: block;float: left;height: 24px;line-height: 24px;}
+.botBox .about .aboutRow a{font-weight: bold;	padding-right: 20px;}
+.botBox .about .aboutRow span{padding-right: 12px;}
+.cnzz{display: inline-block;width: 50px;height: 12px;margin-top: 6px;background: url(../lqimages/CNZZPic.gif) 0 0 no-repeat;}

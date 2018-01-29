@@ -1,0 +1,234 @@
+@charset: "utf-8";
+/*
+ *text chanel css
+*/
+/*main article list css*/
+.mainCont{width: 1180px;margin: 10px auto;}
+.leftContent{float: left;width: 960px;margin-bottom: 20px;}
+.leftContent .l_mainShow{width: 960px;}
+.leftContent .l_mainShow .l_menuList{float: left;width: 218px;height: 334px;border: 1px solid #E7E7E7;}
+.leftContent .l_mainShow .l_menuList .l_menuTitle{width: 218px;height: 28px;line-height: 30px;text-indent: 12px;background: #E7E7E7;color: #333;font-weight: bold;}
+.leftContent .l_mainShow .l_menuList .l_speRecmd{width: 198px;height: 14px;line-height: 14px;padding: 10px;background: white;}
+.leftContent .l_mainShow .l_menuList .l_speRecmd .l_speReNum{display: block;float: left;width: 10px;height: 12px;line-height: 12px;border: 1px solid #666;text-align: center;*margin-top: -2px;margin-right: 6px;color: #666;font-weight: normal;}
+.leftContent .l_mainShow .l_menuList .l_speRecmd .l_speReNumFront{width:12px;height:14px;line-height: 14px;background: #00B1C1;color: white;border: none;font-weight: bold;}
+.leftContent .l_mainShow .l_importContent{float: left;margin-left: 10px;width: 700px;height: 314px;padding: 10px 14px;border: 1px solid #E7E7E7;}
+.leftContent .l_mainShow .l_importContent .l_focArc{width: 700px;height: 74px;}
+.leftContent .l_mainShow .l_importContent .l_focArc .l_focArcTit{height: 30px;line-height: 30px;text-align: center;}
+.leftContent .l_mainShow .l_importContent .l_focArc .l_focArcTit a{color: #00B1C1;	font-size: 16px;}
+.leftContent .l_mainShow .l_importContent .l_focArc .l_focArcAbs{height: 40px;line-height: 20px;text-indent: 20px;color: #666;padding-bottom: 6px;}
+.leftContent .l_mainShow .l_importContent .l_focArc .l_focArcAbs a{color: #999;}
+.leftContent .l_mainShow .l_importContent .l_focArc .l_focArcAbs a:hover{color: #00B1C1;}
+.l_importContent .l_lateUpdate{width: 690px;height: 220px;padding: 10px 5px;overflow: hidden;}
+.l_importContent .l_lateUpdate .l_lateUpdateTit{width: 690px;margin-bottom: 6px;}
+.l_importContent .l_lateUpdate li.l_luList{float: left;width: 220px;height: 30px;line-height: 30px;padding-right: 10px;}
+.l_importContent .l_lateUpdate li.l_luList a.l_luLink{width: auto;}
+/*chanel article list css*/
+.cnlArcBox{width: 312px;}
+.hqrBox .cnlTopBox{width: 312px;}
+.hqrBox .hqrTopBox .cnlTxtIco{background: url(../lqimages/lqIco1.png) -120px -32px no-repeat;}
+.hqrBox .cnlListUl{width: 285px;}
+.hqrBox .cnlListUl .cnlListLi{width: 285px;}
+/*right list conmmon css*/
+.rightList{float: right;width: 206px;margin-bottom: 10px;border: 1px solid #E7E7E7;}
+.rightList .r_sortList{width: 182px;padding: 10px 6px 10px 12px;}
+.rightList .r_sortList .r_sort{width: 182px;height: 30px;}
+.r_sortList .r_sort .r_icon{display: block;float: left;width: 5px;height: 8px;margin-top: 12px;background: url("../lqimages/lqIco1.png") -110px -30px no-repeat;}
+.r_sortList .r_sort .r_aLink{display: block;float: left;width: 162px;height: 30px;line-height: 30px;}
+.r_sortList .r_titleBox{width: 182px;height: 20px;border-bottom: 2px solid #00B1C1;margin-bottom: 3px;}
+.r_sortList .r_titleBox .r_title{width: 60px;height: 20px;line-height: 20px;text-align: center;background: #00B1C1;color: white;font-weight: bold;}
+
+/*
+ *picture chanel css
+*/
+/*top focus & menu*/
+.pc_topBox{width: 1180px;height: 380px;overflow: hidden;}
+.pc_topBox .pc_picFocus{position: relative;width: 760px;height: 380px;float: left;}
+.pc_topBox .pc_picFocus .pc_picList{position: absolute;width: 760px;height: 380px;}
+.pc_topBox .pc_picFocus .pc_picList .pc_pics{position: absolute;top: 0;left: 0;width: 760px;height: 380px;display: none;}
+.pc_topBox .pc_picFocus .pc_picList .pc_pics .pc_picLink{display: block;float: left;width: 760px;height: 380px;}
+.pc_topBox .pc_picFocus .pc_iconList{position: absolute;bottom: 0px;right: 20px;height: 20px;}
+.pc_topBox .pc_picFocus .pc_iconList .pc_icons{float: left;width: 24px;height: 8px;margin-right: 4px;background: white;border: 1px solid #DDD;border-radius: 5px;cursor: pointer;}
+.pc_topBox .pc_picFocus .pc_iconList .pc_icoActive{border: 1px solid #00B1C1;background: #00B1C1;}
+.pc_topBox .pc_picFocus .pc_picGoto{position: absolute;top: 173px;display: none;width: 38px;height: 34px;}
+.pc_topBox .pc_picFocus .pc_back{left: 10px;background: url(../lqimages/lqIco1.png) -45px -64px no-repeat;}
+.pc_topBox .pc_picFocus .pc_back:hover{background: url(../lqimages/lqIco1.png) -88px -64px no-repeat;}
+.pc_topBox .pc_picFocus .pc_forward{right: 10px;background: url(../lqimages/lqIco1.png) 0 -64px no-repeat;}
+.pc_topBox .pc_picFocus .pc_forward:hover{background: url(../lqimages/lqIco1.png) -131px -64px no-repeat;}
+.pc_topBox .pc_hotMenu{float: right;color: red;width: 390px;height: 380px;}
+.pc_topBox .pc_hotMenu .hotMenuList{float: left;width: 185px;height: 42px;margin-right: 10px;margin-bottom: 14px;_margin-bottom: 12px;}
+.pc_topBox .pc_hotMenu .hotMenuList a{display: block;width: 183px;height: 42px;line-height: 42px;border-radius: 4px;border: 1px solid #ccc;text-align: center;text-decoration: none;font-size: 14px;font-family: "Microsoft Yahei";}
+.pc_topBox .pc_hotMenu .hotMenuList a:hover{border: 1px solid #00B1C1;background: #00B1C1;color: white;}
+/*pic chanel menu list*/
+.pc_menuBox{float: left;width: 900px;margin-bottom: 18px;overflow: hidden;}
+.pc_menuBox .pc_menuList{width: 900px;margin-top: 20px;}
+.pc_menuBox .pc_menuList .pcTopBox{width: 900px;}
+.pc_menuBox .pc_menuList .hqrTopBox .cnlPicIco{background: url(../lqimages/lqIco1.png) -144px -32px no-repeat;}
+.pc_menuBox .pc_menuList .pc_hotMark{float: left;height: 30px;padding: 0 20px;}
+.pc_menuBox .pc_menuList .pc_hotMark .markList{float: left;height: 30px;padding-right: 10px;}
+.pc_menuBox .pc_menuList .pc_hotMark .markList a{float: left;display: block;height: 30px;line-height: 32px;color: #999;}
+.pc_menuBox .pc_menuList .pc_hotMark .markList a:hover{color: #00B1C1;}
+.pc_menuBox .pc_menuList .pc_menuPicUl{float: left;width: 888px;height: 160px;padding: 10px;padding-right: 0;background: white;border: 1px solid #F0F0F0;}
+.pc_menuBox .pc_menuList .pc_menuPicUl .pc_menuPicLi{float: left; width: 210px; height: 160px;margin-right: 12px;_margin-right: 9px;text-align: center;}
+.pc_menuBox .pc_menuList .pc_menuPicUl .pc_menuPicLi .pc_menuPicLink{display: block;width: 210px;height: 140px;}
+.pc_menuBox .pc_menuList .pc_menuPicUl .pc_menuPicLi .pc_menuTxt{display: block; width: 210px;height: 30px;}
+.pc_menuBox .pc_menuList .pc_menuPicUl .pc_menuPicLi .pc_menuTxt .pc_menuTxtLink{height: 30px;line-height: 30px;}
+.pc_hotBox{float: right;width: 240px;margin: 20px 0;padding: 8px 12px;border: 1px solid #ccc;}
+.pc_hotBox .pc_hotOpt{width: 240px;margin-bottom: 12px;overflow: hidden;}
+.pc_hotBox .pc_hotOpt .pc_hotTitle{width: 240px;height: 20px;margin-bottom: 10px;border-bottom: 2px solid #00B1C1;}
+.pc_hotBox .pc_hotOpt .pc_hotTitle p{width: 60px;height: 20px;line-height: 20px;text-align: center;color: white;font-weight: bold;background: #00B1C1;}
+.pc_hotBox .pc_hotOpt .pc_hotPic{width: 240px;}
+.pc_hotBox .pc_hotOpt .pc_hotPic .pc_hotPicList{width: 240px;height: 40px;padding: 12px 0;_padding-top: 10px;_padding-bottom: 8px;border-top: 1px solid #E7E7E7;}
+.pc_hotBox .pc_hotOpt .pc_hotPic .pc_hotPicFir{padding-top: 0;border-top: none;}
+.pc_hotBox .pc_hotOpt .pc_hotPic .pc_hotPicList .pc_hotPicImg{display: block;float: left;width: 60px;height: 40px;margin-right: 10px;}
+.pc_hotBox .pc_hotOpt .pc_hotPic .pc_hotPicList .pc_hotPicTit{display: block;float: left;width: 170px;height: 40px;line-height: 20px;overflow: hidden;vertical-align: top;}
+/*
+ *text list css
+*/
+.lsPositionBox{width: 960px;height: 36px;line-height: 36px;text-indent: 20px;background: #F0F0F0;}
+.lsPositionBox .lsPsLink{text-decoration: none;}
+.lsPositionBox .lsPsLink:hover{color: #00B1C1;}
+.txtListBox,.listPageBox,.txtContBox{float: left;width: 918px;padding: 20px;background: white;border: 1px solid #f0F0F0;}
+.txtListBox .txtListList{float: left;width: 920px;height: 32px;margin-bottom: 3px;border-bottom: 1px dashed #D7D7D7;}
+.txtListBox .txtListList .txtListIco{float: left;display: block;width: 10px;height: 10px;margin-top: 16px;background: url("../lqimages/lqIco1.png") no-repeat -128px 0;}
+.txtListBox .txtListList .txtListLink{float: left;display: block;height: 32px;line-height: 40px;}
+.txtListBox .txtListList .txtListTime{float: right;display: block;height: 32px;line-height: 40px;}
+.listPageBox{padding: 10px 20px;}
+.listPageBox .listPage{float: right;height: 36px;margin-top: 10px;}
+.listPageBox .listPage .listPageBtn{float: left;height: 24px;margin-left: 8px;}
+.listPageBox .listPage .listPageBtn a.listPageLink{display: block;float: left;height: 24px;line-height: 24px;padding: 0 10px;	text-decoration: none;text-align: center;color: #585858;border: 1px solid #CCC;}
+.listPageBox .listPage .listPageBtn a.listPageLink:hover{color: white;border: 1px solid #00B1C1;background: #00B1C1;}
+/*
+ *text arcticle content css
+*/
+.arcContBox{padding-bottom: 0;width: 918px;}
+.txtContBox .txtContTitle{float: left;display: block;width: 918px;height: 48px;line-height: 48px;font-size: 18px;text-align: center;}
+.txtContBox .txtContAssist{float: left;width: 918px;height: 20px;line-height: 20px;text-align: center;border-bottom: 1px dashed #ccc;padding-bottom: 10px;}
+.txtContBox .txtContAssist .txtContAs{height: 20px;line-height: 20px;margin-right: 20px;}
+.txtContBox .txtContAssist .txtContAsTitle{color: #444;font-weight: bold;}
+.txtContBox .txtContAssist .txtContAsCont{color: #333;}
+.txtContBox .txtContArc{float: left;width: 918px;margin-top: 18px;}
+.txtContBox .txtContArc .txtContPara{float: left;width: 918px;line-height: 24px;padding-bottom: 6px;font-size: 14px;text-align: justify;text-indent: 30px;}
+.arcPageBox{width: 898px;_width: 878px;border: none;padding-bottom: -10px;}
+.arcPageBox .arcPageNums{float: left;height: 28px;line-height: 28px;color: #585858;margin-right: -8px;font-size: 14px;}
+.arcGotoBox{float: left;width: 958px;height: 80px;background: white;border: 1px solid #F0F0F0;}
+.arcGotoBox .arcUpDowmBox{float: left;padding: 10px 20px;width: 650px;height: 60px;}
+.arcGotoBox .arcUpDowmBox .arcUpDowm{height: 30px;line-height: 30px;}
+.arcGotoBox .arcShreBox{float: right;padding: 16px 20px 0 0;width: 248px;height: 60px;}
+.arcGotoBox .arcShreBox .arcShareTit{font-weight: bold;}
+/*
+ * picture list css
+*/
+.mainCont .pl_MainBox{margin-top: 0;}
+.mainCont .pc_menuBox .pl_MainBox .picLsPosition{width: 900px;}
+.pc_menuBox .hqrBox .pl_menuListBox{width: 888px;height: auto;}
+.pc_menuBox .hqrBox .pl_menuListBox .pl_menuPicLi{margin-bottom: 20px;}
+.picListPageBox{width: 858px;}
+.pl_hotBox{margin-top: 0;}
+/*
+ * picture Content css
+*/
+.pc_menuBox .hqrBox .pl_menuContBox{height: auto;}
+.pc_menuBox .hqrBox .pl_menuContBox .pl_arcPinTitle{font-family: "Microsoft Yahei";font-size: 18px;height: 42px;line-height: 42px;}
+.pc_menuBox .hqrBox .pl_menuContBox .pl_arcPicLink{display: block;float: left;width: 876px;height: 583px;}
+.pc_menuBox .picContPageBox{width: 858px;}
+.pc_menuBox .pl_MainBox .listPage .contPageBtn{float: left;width: 420px;_width: 416px;}
+.pc_menuBox .pl_MainBox .listPage .contPageBtn .arcPicBack{float:  right;}
+.pc_menuBox .pl_MainBox .listPage .contPageBtn .arcPicForward{float: left;}
+/*
+ * search list css
+*/
+.searchPageTop{float: left;width: 420px;margin-left: 120px;}
+.searchPageTop .toAdviceSearch,.searchPageTop .toIndex{float: left;color: #6BA822;margin-left: 10px;line-height: 26px;font-weight: bold;}
+.searchPages{width: 1180px;}
+.searchPages .lsPositionBox{width: 1180px;}
+.searchPages .lsPositionBox .keyWordTitle,.searchPages .lsPositionBox .searchResualtNum{padding: 0 2px;color: #00B1C1;font-weight: bold;}
+.searchPages .searchListUl{width: 1138px;}
+.searchPages .searchListUl .searchListLi{float: left;width: 780px;padding-bottom: 14px;}
+.searchPages .searchListUl .searchListLi .searchListTitle{display: block;float: left;width: 960px;height: 24px;line-height: 24px;}
+.searchPages .searchListUl .searchListLi .searchListTitle a{font-size: 16px;text-decoration: underline;}
+.searchPages .searchListUl .searchListLi .searchListAbs,.searchPages .searchListUl .searchListLi .searchListSheet{float: left;width: 760px;line-height: 18px;padding: 2px 0 0 20px;overflow: hidden;}
+.searchPages .searchListUl .searchListLi .searchListSheet a,.searchPages .searchListUl .searchListLi .searchListSheet span{color: #00B1C1;padding-right: 18px;}
+.searchPages .searchListPage{width: 1138px;}
+.searchPages .searchListPage .listPage{float: left;}
+/*
+ * advice search css
+*/
+.searchPages .lsPositionBox .adSearchTit{float: left;font-weight: bold;}
+.searchPages .lsPositionBox .adSearchToIndex{float: right;color: #00B1C1;font-weight: bold;margin-right: 20px;}
+.searchPages .searchListUl .adSearchTable{width: 480px;padding: 40px 120px;}
+.searchPages .searchListUl .adSearchTable .adSearchRow{float: left;width: 480px;height: 24px;padding-bottom: 16px;}
+.searchPages .searchListUl .adSearchTable .adSearchRow .adSearchTitle{float: left;width: 90px;height: 24px;line-height: 24px;text-align: right;padding-right: 4px;font-size: 14px;}
+.searchPages .searchListUl .adSearchTable .adSearchRow input,.searchPages .searchListUl .adSearchTable .adSearchRow select{float: left;height:22px;line-height: 22px;line-height: 24px\9;font-size: 12px;border: 1px solid #00B1C1;}
+.searchPages .searchListUl .adSearchTable .adSearchRow .adSearchCont{width: 180px;text-indent: 6px;}
+.searchPages .searchListUl .adSearchTable .adSearchRow .adSearchNum{width: 106px;text-indent: 6px;}
+.searchPages .searchListUl .adSearchTable .adSearchRowSub{padding-left: 48px;padding-top: 20px;}
+.searchPages .searchListUl .adSearchTable .adSearchRow .adSearchBtn{display: block;float: left;width: 60px;height: 30px;line-height: 30px;text-align: center;color: white;font-size: 14px;font-weight: bold;margin-right: 18px;cursor: pointer;background: #00B1C1;}
+/*
+ * software list css
+*/
+.pc_menuBox .softListMain{width: 900px;text-indent: 0;}
+.pc_menuBox .softListMain .softIcon{display: block;float: left;width: 20px;height: 18px;margin: 10px 0 0 14px;background: url(../lqimages/lqIco1.png) -173px -32px no-repeat;}
+.pc_menuBox .softListMain .softMainTitle{float: left;color: #00B1C1;font-weight: bold;}
+.pc_menuBox .hqrBox .sl_softListBox{width: 888px;height: auto;}
+.pc_menuBox .hqrBox .sl_softListBox .sl_softList{width: 850px;height: 90px;margin: 0 14px;padding-top: 8px;border-bottom: 1px dashed #d7d7d7;}
+.pc_menuBox .hqrBox .sl_softListBox .sl_softList .sl_softPic{display: block;float: left;width: 80px;height: 80px;margin-right: 20px;}
+.pc_menuBox .hqrBox .sl_softListBox .sl_softList .sl_softLifo{float: left;width: 630px;height: 80px;}
+.pc_menuBox .hqrBox .sl_softListBox .sl_softList .sl_softLifo .sl_softTitle{float: left;display: block;width: 630px;height: 30px;}
+.pc_menuBox .hqrBox .sl_softListBox .sl_softList .sl_softLifo .sl_softTitle a{line-height: 30px;font-size: 16px;font-weight: bold;}
+.pc_menuBox .hqrBox .sl_softListBox .sl_softList .sl_softLifo .sl_softTh{display: block;float: left;padding-left: 10px;}
+.pc_menuBox .hqrBox .sl_softListBox .sl_softList .sl_softLifo .sl_softFunction{float: left;display: block;width: 555px;height: 16px;line-height: 16px;}
+.pc_menuBox .hqrBox .sl_softListBox .sl_softList .sl_softLifo .sl_softAbs{float: left;display: block;width: 555px;height: 30px;line-height: 16px;text-decoration: justify;overflow: hidden;}
+.pc_menuBox .hqrBox .sl_softListBox .sl_softList .sl_softDownloadBtn{display: block;float: right;width: 100px;height: 30px;margin-top: 30px;background: url(../lqimages/slDownloadIcon.png) 0 0 no-repeat;}
+.pc_hotBox .pc_hotOpt .pc_hotPic .pc_hotPicList .sl_hotSoftIcon{width: 40px;}
+.pc_hotBox .pc_hotOpt .pc_hotPic .pc_hotPicList .sl_hotSoftTit{width: 190px;height: 20px;font-weight: bold;}
+.pc_hotBox .pc_hotOpt .pc_hotPic .pc_hotPicList .sl_hotSoftInfo{float: left;width: 190px;height: 20px;line-height: 20px;}
+.pc_hotBox .pc_hotOpt .pc_hotPic .pc_hotPicList .sl_hotSoftInfo .sl_hotSoftFun{padding-left: 2px;}
+/*
+ * software content css
+*/
+.pc_menuBox .hqrBox .sc_softContBox{width: 888px;height: auto;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softContMenu{width: 830px;padding: 14px 24px;border-bottom: 1px solid #CCC;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softMainTop{height: 140px;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softMainTop .sc_softMainTitle{float: left;width: 100px;height: 140px;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softMainTop .sc_softMainTitle .sc_softPicTitle{display: block;float: left;width: 100px;height: 100px;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softMainTop .sc_softMainTitle .sc_softDownloadTop{display: block;float: left;width: 100px;height: 30px;margin-top: 10px;text-align: center;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softMainTop .sc_softMainTitle .sc_softDownloadTop .sc_softDownload1{display: inline-block;width: 100px;height: 30px;background: url(../lqimages/slDownloadIcon.png) 0 0 no-repeat;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softMainTop .sc_softMainInfo{float: left;width: 680px;height: 140px;margin-left: 50px;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softMainTop .sc_softMainInfo .sc_softTitle{font-size: 18px;font-family: "Microsoft Yahei";margin-bottom: 14px;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softMainTop .sc_softMainInfo .sc_softInfo{height: 24px;line-height: 24px;font-size: 14px;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softContMenu .sc_softMenuTitle{font-size: 16px;color: #00B1C1;margin-bottom: 6px;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softContMenu .sc_softIns{padding-left: 20px;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softContMenu .sc_softIns p{text-indent: 20px;line-height: 18px;padding-bottom: 10px;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softContMenu .sc_softIns .sc_softPic{position: relative;width: 640px;height: 400px;padding: 10px;border: 1px solid #00B1C1;margin: 10px 0 0 48px;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softContMenu .sc_softIns .sc_softPic .sc_softPicList{position: absolute;top: 10px;left: 10px;display: none;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softContMenu .sc_softIns .sc_softPic .sc_softPicQiehuan{position: absolute;top: 200px;display: block;width: 38px;height: 36px;z-index: 95;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softContMenu .sc_softIns .sc_softPic .sc_softPicBack{left: 18px;background: url(../lqimages/lqIco1.png) -45px -64px no-repeat;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softContMenu .sc_softIns .sc_softPic .sc_softPicForward{right: 18px;background: url(../lqimages/lqIco1.png) 0 -64px no-repeat;}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softContMenu .sc_softIns .sc_softPic .sc_softPicBack:hover{background: url(../lqimages/lqIco1.png) -88px -64px no-repeat}
+.pc_menuBox .hqrBox .sc_softContBox .sc_softContMenu .sc_softIns .sc_softPic .sc_softPicForward:hover{background: url(../lqimages/lqIco1.png) -131px -64px no-repeat;}
+/*
+ * movie content css
+*/
+.pc_menuBox .hqrBox .sc_softContBox .mc_movieMainTop{height: 200px;}
+.pc_menuBox .hqrBox .sc_softContBox .mc_movieMainTop .mc_moviePicTitle{float: left;width: 140px;height: 200px;}
+.pc_menuBox .hqrBox .sc_softContBox .mc_movieMainTop .mc_movieMainInfo{float: left;width: 640px;height: 200px;margin-left: 50px;}
+.pc_menuBox .hqrBox .sc_softContBox .mc_movieMainTop .mc_movieMainInfo .mc_moviePM,
+.pc_menuBox .hqrBox .sc_softContBox .mc_movieMainTop .mc_movieMainInfo .mc_movieName{display: inline-block;font-size: 18px;font-weight: bold;font-family: "Microsoft Yahei";margin-bottom: 10px;}
+.pc_menuBox .hqrBox .sc_softContBox .mc_movieMainTop .mc_movieMainInfo .cc_movieInfo{height: 28px;line-height: 28px;font-size: 14px;}
+.pc_menuBox .hqrBox .sc_softContBox .mc_movieDownload{line-height: 30px;font-weight: bold;font-size: 14px;text-decoration: underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
